@@ -17,6 +17,7 @@ The system consists of:
 When the system is turned on, LM35 sensor will detect the temperature. Then Arduino will compare the room temperature detected by the LM35 to the reference temperature that has been set. If the detected room temperature is greater than the reference temperature value, the Arduino will instruct the relay to turn on the servo and fan. The servo and fan will turn off if the room temperature is below the desired reference temperature.
 
 # NOTES
+This system is only run in a simulation, not yet implemented so there may be many changes/improvements during the implementation process
 
 How to create hex file in Arduino IDE:
 https://www.instructables.com/HOW-TO-GET-HEX-FILE-FROM-ARDUINO-/
