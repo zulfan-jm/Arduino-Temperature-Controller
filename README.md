@@ -1,6 +1,6 @@
 # ARDUINO TEMPERATURE CONTROLLER
     github: zulfan-jm
-Temperature control system using the LM35 temperature sensor based on the Arduino is a monitoring system and automatic control of room temperature. 
+Temperature control system is a monitoring system and temperature automatic control based on Arduino Uno and LM35 temperature sensor. 
 
 # COMPONENTS
 The system consists of:
