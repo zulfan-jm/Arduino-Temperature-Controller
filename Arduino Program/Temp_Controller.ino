@@ -1,5 +1,5 @@
 /* ARDUINO TEMPERATURE CONTROLLER
-     github: zulfan-jm
+     github: https://github.com/zulfan-jm
    Temperature control system using the LM35 temperature sensor 
    based on the Arduino is a monitoring system and automatic control 
    of room temperature. 
@@ -10,7 +10,8 @@
    - I2C module
    - Relay 5V
    - Fan 12V
-   - Servo SG90.
+   - Servo SG90
+   - Adaptor 12V
     
    When the system is turned on, LM35 sensor will detect the temperature. 
    Then Arduino will compare the room temperature detected by the LM35 
