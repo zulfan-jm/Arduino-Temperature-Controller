@@ -1,8 +1,9 @@
 # ARDUINO TEMPERATURE CONTROLLER
-    github: zulfan-jm
+by: [Zulfan Jauhar M.](https://github.com/zulfan-jm)
+
 Temperature control system is a monitoring system and temperature automatic control based on Arduino Uno and LM35 temperature sensor. 
 
-# COMPONENTS
+## COMPONENTS
 The system consists of:
    - Arduino Uno
    - LM35 sensor
@@ -13,13 +14,13 @@ The system consists of:
    - Servo SG90
    - Adaptor 12V
 
-# HOW THE SYSTEM WORKS
+## HOW THE SYSTEM WORKS
 When the system is turned on, LM35 sensor will detect the temperature. Then Arduino will compare the room temperature detected by the LM35 to the reference temperature that has been set. If the detected room temperature is greater than the reference temperature value, the Arduino will instruct the relay to turn on the servo and fan. The servo and fan will turn off if the room temperature is below the desired reference temperature.
 
-# NOTES
-This system is only run in a simulation, not yet implemented so there may be many changes/improvements during the implementation process
+## NOTES
+This system is only run in a simulation, not yet implemented so there may be many changes/improvements during the implementation process.
 
-# EXTRAS
+### EXTRAS
 How to create hex file in Arduino IDE:
 https://www.instructables.com/HOW-TO-GET-HEX-FILE-FROM-ARDUINO-/
 
