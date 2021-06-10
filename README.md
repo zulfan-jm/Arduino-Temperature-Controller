@@ -10,7 +10,8 @@ The system consists of:
    - I2C module
    - Relay 5V
    - Fan 12V
-   - Servo SG90.
+   - Servo SG90
+   - Adaptor 12V
 
 # HOW THE SYSTEM WORKS
 When the system is turned on, LM35 sensor will detect the temperature. Then Arduino will compare the room temperature detected by the LM35 to the reference temperature that has been set. If the detected room temperature is greater than the reference temperature value, the Arduino will instruct the relay to turn on the servo and fan. The servo and fan will turn off if the room temperature is below the desired reference temperature.
