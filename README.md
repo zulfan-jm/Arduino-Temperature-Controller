@@ -19,6 +19,7 @@ When the system is turned on, LM35 sensor will detect the temperature. Then Ardu
 # NOTES
 This system is only run in a simulation, not yet implemented so there may be many changes/improvements during the implementation process
 
+# EXTRAS
 How to create hex file in Arduino IDE:
 https://www.instructables.com/HOW-TO-GET-HEX-FILE-FROM-ARDUINO-/
 
